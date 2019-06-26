@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  img{
+    height: 30px;
+    width: 100px;
+    padding: 1px;
+  }
+
+  body{
+    margin:0;
+    padding:0;
+    background:#000;
+    font-family: sans-serif;
+
+      }
+      .header-bg{
+        position: fixed;
+
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url("photo-1496047311392-22bec9423e0a.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      display: flex;
+      justify-content: center;
+  align-items: center;
+}
+.header-bg h2{
+  margin: 0;
+  padding: 0;
+  font-size: 5em;
+  font-family: 'Finger Paint', cursive;
+
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+width: 80%;
+box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+}
+section{
+  position: relative;
+  top: 100vh;
+  padding: 100px;
+  width: 100%;
+height: 200vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+section h2{
+  margin:0 0 50px;
+  padding: 0;
+  font-size: 3.5em;
+  color: #000;
+  font-family: 'Pacifico', cursive;
+
+}
+section p{
+  color: #000;
+  font-size: 1.4em;
+  font-family: 'Stylish', sans-serif;
+
+
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.container{
+width: 1000px;
+display: flex;
+margin: 50px 0;
+
+flex-wrap: wrap;
+justify-content: space-space-around;
+}
+.box{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 120px;
+  background: #000;
+  box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+
+}
+.box .imgBx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+.box .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+
+}
+.box:hover .imgBx img{
+  opacity: 0;
+}
+.box .content{
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  width: 80%;
+  height: 60px;
+  background: #fff;
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 15px;
+  box-sizing: border-box;
+
+}
+.box:hover .content{
+width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+
+
+}
+.box .content h3{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: 'Finger Paint', cursive;
+
+}
+.box .content p{
+  margin: 10px 0 0;
+  padding: 0;
+  opacity: 0;
+  line-height: 1.2em;
+  transition: 0.5s;
+  text-align: justify;
+
+}
+.box:hover .content p{
+  opacity: 1;
+  transition-delay: 0.5s;
+
+}
+
+
+  </style>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Finger+Paint|Great+Vibes|Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="untitled.png"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav  navbar-right">
+          <li class="active"><a href="task5.html">Home</a></li>
+          <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Noesis</a></li>
+                      <li><a href="tasktechno.html">Technosearch</a></li>
+                      <li><a href="taskworkshop.html">Workshop</a></li>
+                    </ul>
+                  </li>
+      >
+  <li><a href="tasksponser.html">Sponser us</a></li>
+      </div>
+    </div>
+  </nav>
+  <div class="header-bg">
+    <h2>NOESIS</h2>
+  </div>
+
+  <section>
+<h2>NOESIS</h2>
+<p><i><b>An annual event</b></i></p>
+  <p>NOESIS is the Signature Event of Vision. It was started in year 2011 and still Continues to be The Biggest Technical Event of the Institute after Technosearch, the Annual Technical Festival of the College. It is a Two Day Mega Technical Event conducted in Mid September every year. In the past few years NOESIS received a Great Response. In year 2k16, it was conducted on 17th and 18th September. Students from Various Colleges enthusiastically participated in Great Number. There were more than 1000 Participations. During NOESIS usually Branch specific Technical Workshops are organised so as to acquaint students with the recent advancements in their branches giving them an Edge over with Hands on Projects.t<p>
+  <div class="container">
+    <div class="box">
+      <div class="imgBx">
+        <img src="img1.jpg" style="height:400px;width:300px;">
+      </div>
+      <div class="content">
+        <h3>BYTE THE CODE</h3>
+        <p>Byte the code is a workshop on python. In this workshop we aim to introduce students to the main structure and working of Python. This year it witnessed more than 400 participations. The highlight of the event was a project on web scrapping. To wrap things up there was a quiz which tested coding skills and intellect of the students, and the winners were awarded. Enthusiasm of the students was overwhelming.
+
+</p>
+
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="imgBx">
+        <img src="img2.png" style="height:400px;width:300px;">
+      </div>
+      <div class="content">
+        <h3>ASPHEN-TECH</h3>
+<p>One of the workshops in Noesis, ASPEN-TECH is being organized every year. It's a chemical engineering software but anyone who is interested to learn, can attend the event. The event is totally student interactive.
+</p>
+
+      </div>
+    </div>
+
+
+</div>
+  <div class="container" >
+    <div class="box">
+      <div class="imgBx">
+        <img src="img3.jpg" style="height:400px;width:300px;">
+      </div>
+      <div class="content">
+        <h3>FUTURENA</h3>
+<p>Have you ever wondered how a small digital watch on your wrist works?? Or ever pondered to enter in the world of technology and go beyond theory? So here comes Futurena, branch specific technical workshop organized in Noesis so as to acquaint students with the recent advancements in electronics circuits giving them an edge over with hands on projects in the workshop itself.
+</p>
+    </div>
+  </div>
+    <div class="box">
+      <div class="imgBx">
+        <img src="img4.jpg" style="height:400px;width:300px;">
+      </div>
+      <div class="content">
+        <h3>AUTO-CAD</h3>
+        <p>Were you ever good at drawing diagrams in the School? Ever thought of how the buildings or bridges are "Drawn"?Have a small glimpse of AutoCAD,which is a computer-aided drafting software program used to create blueprints for buildings, bridges, and computer chips, among other things.</p>
+        </div>
+    </div>
+  </div>
+<div class="container" >
+    <div class="box">
+      <div class="imgBx">
+        <img src="img5.jpg" style="height:400px;width:300px;">
+      </div>
+      <div class="content">
+        <h3>AAKRITI</h3>
+<p>AAKRITI, a workshop organised to shape and mould the foundations of newly generated buds of CIVIL ENGINEERING. Its main focus was on creating an interactive session to enlighten Civil Engineering students about their branch and open up the new doors of excellence.
+</p>
+</div>
+  </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(window).scroll(function(){
+    $('.header-bg').css("opacity",1 -
+  $(window).scrollTop()/700)
+  })
+})
+</script>
+
+  </section>
+
+
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+  img{
+    height: 30px;
+    width: 100px;
+    padding: 1px;
+  }
+   body{
+      margin:0;
+      padding:0;
+      background:#000;
+      font-family: sans-serif;
+
+        }
+        .header-bg{
+          position: fixed;
+
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("photo-1457530619060-40399c0744bc.jpg");
+          background-size: cover;
+          background-attachment: fixed;
+          display: flex;
+          justify-content: center;
+      align-items: center;
+    }
+
+  .header-bg h2{
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-family: 'Finger Paint', cursive;
+
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  width: 80%;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  section{
+    position: relative;
+    top: 100vh;
+    padding: 100px;
+    width: 100%;
+  height: 200vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  section h2{
+    margin:0 0 50px;
+    padding: 0;
+    font-size: 3.5em;
+    color: #000;
+    font-family: 'Pacifico', cursive;
+
+  }
+  section p{
+    color: #000;
+    font-size: 1.4em;
+
+    font-family: 'Stylish', sans-serif;
+
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+    .container{
+    width: 1000px;
+    display: flex;
+    margin: 50px 0;
+
+    flex-wrap: wrap;
+    justify-content: space-space-around;
+    }
+    .box{
+      position: relative;
+      width: 300px;
+      height: 400px;
+      margin: 120px;
+      background: #000;
+      box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+
+    }
+    .box .imgBx{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+
+    }
+    .box .imgBx img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s;
+
+    }
+    .box:hover .imgBx img{
+      opacity: 0;
+    }
+    .box .content{
+      position: absolute;
+      bottom: 20px;
+      left: 10%;
+      width: 80%;
+      height: 60px;
+      background: #fff;
+      transition: 0.5s;
+      overflow: hidden;
+      padding: 15px;
+      box-sizing: border-box;
+
+    }
+    .box:hover .content{
+    width: 100%;
+      height: 100%;
+      bottom: 0;
+      left: 0;
+
+
+    }
+    .box .content h3{
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      font-family: 'Finger Paint', cursive;
+
+    }
+    .box .content p{
+      margin: 10px 0 0;
+      padding: 0;
+      opacity: 0;
+      line-height: 1.2em;
+      transition: 0.5s;
+      text-align: justify;
+
+    }
+    .box:hover .content p{
+      opacity: 1;
+      transition-delay: 0.5s;
+
+    }
+  </style>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Finger+Paint|Great+Vibes|Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="untitled.png"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav  navbar-right">
+          <li class="active"><a href="task5.html">Home</a></li>
+          <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Events <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="tasknoesis.html">Noesis</a></li>
+                      <li><a href="tasktechno.html">Technosearch</a></li>
+                      <li><a href="#">Workshop</a></li>
+                    </ul>
+                  </li>
+      
+  <li><a href="tasksponser.html">Sponser us</a></li>
+      </div>
+    </div>
+  </nav>
+  <div class="header-bg">
+    <h2>WORKSHOP</h2>
+  </div>
+
+
+  <section>
+<h2>WORKSHOPS</h2>
+<p><i><b>Knowledge Is Power</b></i></p>
+  <p>Vision had a Flourishing Adventure in the previous sessions organizing workshops with a wide range of topics starting from a basic WLT Session to a whole new level of an Inter-College Arduino Workshop, involving students from all over Bhopal. Vision helped various participants to Build their Own Bots, Modify them and Prepared to a level for competing at National Level Techfest. Vision also provided insight in Coding World through iniatiative such as Exploring C and Web Development using HTML & CSS.</p>
+
+
+  <div class="container">
+    <div class="box responsive">
+      <div class="imgBx">
+        <img src="WLT 2017[376].jpg" style="height:400px;width:300px;" class="responsive">
+      </div>
+      <div class="content">
+        <h3>WHITE LINE TRACER WORKSHOP</h3>
+        <p>One of the main workshops organized by VISION every year comprising of basic circuits on breadboard, sensors ,introduction to IC’s , etc. to hone interest towards Embedded Systems. Using these components we prepare the students to form an “Automatic White Line Tracer“ robot , which would further help them to compete in the competitions nationwide!.</p>
+
+
+      </div>
+    </div>
+
+    <div class="box responsive">
+      <div class="imgBx">
+        <img src="nrew_C.jpg" style="height:400px;width:300px;" class="responsive">
+      </div>
+      <div class="content">
+        <h3>C WORKSHOP</h3>
+<p>C Workshop are organized at the beginning of the session by the Computer Science team to guide the new comers in the field of computer science. It’s a three day ride which begins with teaching the language from the most basic level.Students from every branch attended the workshop in order to get well acquainted with the basics of the language and move ahead in the world of programming. VISION received a huge response from students outside MANIT.
+</p>
+</div>
+  </div>
+
+
+    <div class="container">
+      <div class="box responsive">
+        <div class="imgBx">
+          <img src="mannual_bol.jpg" style="height:400px;width:300px;" class="responsive">
+        </div>
+        <div class="content">
+          <h3>MANUAL BOT WORKSHOP</h3>
+          <p>Students from all branches participated for this workshop involving building of a manual bot controlled by a remote controller. Furthermore we had another session covering theory and hands on of a “Wireless Remote Controlled” robot which introduced everyone with the concept of wireless communication. We had a huge participation of around 400 students.</p>
+
+
+        </div>
+      </div>
+
+      <div class="box responsive">
+        <div class="imgBx">
+          <img src="Arduino_2017 (1).jpg" style="height:400px;width:300px;" class="responsive">
+        </div>
+        <div class="content">
+          <h3>ARDUINO WORKSHOP</h3>
+<P> This workshop was the best one of each session. Workshop on microcontroller ‘Arduino’ consists of participants from all colleges of Bhopal viz. LNCT, OCT, RITS to name a few. It was a platform for everyone to prepare them for participating in IIT Roorkee techfest Cognizance.Around 600 participations were noted with 450 from our college and 150 from other colleges in 2016. </p>
+  </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(window).scroll(function(){
+    $('.header-bg').css("opacity",1 -
+  $(window).scrollTop()/700)
+  })
+})
+</script>
+
+  </section>
+
+
+</body>
+</html>

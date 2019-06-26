@@ -1,0 +1,288 @@
+body, html {
+height: 100%;
+margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero-image1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("2.jpg");
+  height: 105%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+#hero-text1 {
+  text-align: center;
+position: absolute;
+  top: 50%;
+  left: 50%;
+transform: translate(-50%, -50%);
+  color: #2BBBAD;
+  font-family:'Finger Paint', cursive;
+  padding: 20px;
+
+}
+img{
+  height: 30px;
+  width: 100px;
+  padding: 1px;
+}
+#heading{
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+
+}
+#reasons{
+    font-family:'Finger Paint', cursive;
+      text-align: center;
+      font-size: 80px;
+}
+hr{
+  color:green;
+  height: 60px;
+}
+#unlock{font-size: 40px;}
+#sponser{
+  font-size: 70px;
+}
+ul#ghost{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+flex-direction: row-reverse;
+
+
+}
+ul#ghost li{
+  list-style: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  letter-spacing: 10px;
+  filter: blur(1px);
+  transition: 4s;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 130px;
+  }
+
+
+ul#ghost li:hover,
+ul#ghost li:hover ~ li
+
+{
+  transform: rotate(180deg) translateY(-200px);
+  transition: 2s;
+  filter: blur(20px);
+  opacity: 0;
+}
+#hero-image2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-photo-396547.jpeg");
+  height: 200%;
+text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+background-attachment: fixed;
+font-family: 'EB Garamond', serif;
+font-size: 100px;
+
+}
+
+#hero-text2 {
+  text-align: left;
+position:absolute;
+top: 30%;
+color: white;
+font-family: 'EB Garamond', serif;
+  padding: 0;
+  font-size: 15px;
+}
+#logo{
+  align-items:center;
+  width: 250px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+}
+
+.text{
+
+    position: absolute;
+font-size: 20px;
+    margin: 5%;
+    padding: 0;
+    text-align: right;
+text-align: center;
+    color: #fff;
+    text-transform:uppercase;
+    text-shadow: 0 5px 10px rgba(0,0,0,1);
+
+    box-shadow:  0 5px 10px rgba(0,0,0,.5);
+
+
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.about{
+  background-image: url("abstract-tech-small-grey-squares-animated-background-motion-graphic-design-video-clip-ultra-hd-4k-3840x2160_bjcehe7ye_thumbnail-full01.png");
+  color: black;
+}
+h1{
+  margin-left: : 50%;
+  text-align: center;
+  font-family:'Finger Paint', cursive;
+}
+#logos{
+  height: 80px;
+  margin-left: 20%;
+
+}
+small{
+    margin-left: 20%;
+}
+h4{
+  margin-left: 20%;
+}
+#slogan{
+  font-family: 'EB Garamond', serif;
+align-content: center;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+
+}
+
+.accordion {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color:rgba(10,10,10,.25);
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);()
+  overflow: hidden;
+}
+#company{
+  width:100px;
+  height:100px;
+}
+#hero-image3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("download (4).jpg");
+  height: 50%;
+text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+background-attachment: fixed;
+font-family: 'EB Garamond', serif;
+font-size: 100px;
+
+}
+
+#hero-text3 {
+
+  text-align: left;
+position:absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+font-family: 'EB Garamond', serif;
+  padding: 0;
+  font-size: 15px;
+}
+
+
+#contacts.container{
+  display: flex;
+
+align-items: center;
+height: 100vh;
+width: 900px;
+margin: 0 auto;
+justify-content: space-between;
+
+}
+
+#contacts.container .box{
+text-align: center;
+}
+#contacts.container .box .icon .fa{
+font-size: 80px;
+cursor: pointer;
+}
+#contacts.container .box .icon h6,
+#contacts.container .box .icon h4{
+  position: relative;
+  overflow: hidden;
+  font-weight: 400;
+  margin: 0;
+  padding: 2px 5px;
+  font-size: 24px;
+  transition-delay: 0.25s;
+color: transparent;
+
+}
+  #contacts.container .box .fa:hover ~ h6,
+    #contacts.container .box .fa:hover ~ h4{
+      color: white;
+
+    }
+#contacts.container .box .icon h4{
+  font-weight: 600;
+  margin: 5px 0;
+  font-style: 30px;
+
+}
+#contacts.container .box .icon h6:before,
+#contacts.container .box .icon h4:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left:100%;
+  width: 100%;
+  height: 100%;
+  background: #0097a7;
+  transition: 1s;
+  }
+  #contacts.container .box .icon h4:before{
+    left: initial;
+    right: 100%;
+    background:#b2ebf2 ;
+
+
+  }
+  #contacts.container .box .fa:hover ~ h6:before
+  {
+    left: -100%;
+
+  }
+  #contacts.container .box .fa:hover ~ h4:before{
+    left: initial;
+    right: -100%;
+
+  }
+footer{
+  align-content: center;
+}
