@@ -7,7 +7,7 @@ margin: 0;
 #hero-image1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("2.jpg");
   height: 110%;
-  width:200%;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +85,7 @@ ul#ghost li:hover ~ li
 #hero-image2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-photo-396547.jpeg");
   height: 200%;
-  width:200%;
+  
 text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,7 +104,7 @@ color: white;
 font-family: 'EB Garamond', serif;
   padding: 0;
   font-size: 15px;
-  widthg:200%;
+ 
 }
 #logo{
   align-items:center;
@@ -200,7 +200,7 @@ text-align: center;
 background-attachment: fixed;
 font-family: 'EB Garamond', serif;
 font-size: 100px;
-  width:200%;
+ 
 
 }
 
