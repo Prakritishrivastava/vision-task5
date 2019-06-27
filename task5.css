@@ -7,7 +7,7 @@ margin: 0;
 #hero-image1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("2.jpg");
   height: 110%;
-  
+  overflow:hidden;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,6 +85,7 @@ ul#ghost li:hover ~ li
 #hero-image2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-photo-396547.jpeg");
   height: 200%;
+   overflow:hidden;
   
 text-align: center;
   background-repeat: no-repeat;
@@ -131,12 +132,13 @@ text-align: center;
 
 }
 .responsive {
-  width: 105%;
+  width: 100%;
   height: auto;
 }
 .about{
   background-image: url("abstract-tech-small-grey-squares-animated-background-motion-graphic-design-video-clip-ultra-hd-4k-3840x2160_bjcehe7ye_thumbnail-full01.png");
   color: black;
+   overflow:hidden;
 }
 h1{
   margin-left: : 50%;
@@ -200,6 +202,7 @@ text-align: center;
 background-attachment: fixed;
 font-family: 'EB Garamond', serif;
 font-size: 100px;
+   overflow:hidden;
  
 
 }
